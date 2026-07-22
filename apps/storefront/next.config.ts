@@ -38,23 +38,22 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "http",
+        hostname: "221.132.21.10",
+        port: "3001",
+        pathname: "/**",
+      },
+      {
+        protocol: "http",
         hostname: "localhost",
-        pathname: "/rails/active_storage/**",
+        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "**.vendo.dev",
-        pathname: "/rails/active_storage/**",
+        hostname: "**",
       },
       {
-        protocol: "https",
-        hostname: "**.spree.sh",
-        pathname: "/rails/active_storage/**",
-      },
-      {
-        protocol: "https",
-        hostname: "**.trycloudflare.com",
-        pathname: "/rails/active_storage/**",
+        protocol: "http",
+        hostname: "**",
       },
     ],
   },
