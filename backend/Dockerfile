@@ -97,6 +97,7 @@ RUN bundle install && \
 
 # Copy application code
 COPY --from=ctx /rails-src ./
+RUN chmod +x bin/*
 
 # Precompile bootsnap code for faster boot times and assets
 RUN bundle exec bootsnap precompile app/ lib/ && \
@@ -143,7 +144,7 @@ USER 1000:1000
 # ~105MB standalone Tailwind CLI) is excluded — it's only used by
 # assets:precompile in the build stage; the gem's Ruby files stay so
 # Bundler.require keeps working at boot.
-COPY --chown=rails:rails --from=build --exclude=ruby/*/gems/tailwindcss-ruby-*/exe "${BUNDLE_PATH}" "${BUNDLE_PATH}"
+COPY --chown=rails:rails --from=build "${BUNDLE_PATH}" "${BUNDLE_PATH}"
 COPY --chown=rails:rails --from=build /rails /rails
 
 # React Dashboard, served by Rails at /dashboard (see the dashboard stage
