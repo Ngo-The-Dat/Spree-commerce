@@ -206,7 +206,7 @@ export function ProductDetails({ product, basePath }: ProductDetailsProps) {
           </div>
 
           {/* Description */}
-          {product.description && (
+          {product.description_html && (
             <div className="mt-10 border-t pt-8">
               <h2 className="text-lg font-medium text-gray-900 mb-4">
                 {t("description")}
@@ -214,7 +214,9 @@ export function ProductDetails({ product, basePath }: ProductDetailsProps) {
               {/* Description is admin-authored HTML from the Spree CMS backend (trusted source) */}
               <div
                 className="text-gray-600 prose prose-sm max-w-none"
-                dangerouslySetInnerHTML={{ __html: product.description }}
+                dangerouslySetInnerHTML={{
+                  __html: product.description_html,
+                }}
               />
             </div>
           )}
