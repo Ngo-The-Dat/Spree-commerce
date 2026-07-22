@@ -2,6 +2,7 @@
 # Uses prebuilt Spree image — no local build needed.
 # To customize the backend, run: docker compose -f docker-compose.dev.yml up
 x-app: &app
+  restart: unless-stopped
   image: ghcr.io/spree/spree:${SPREE_VERSION_TAG:-latest}
   depends_on:
     postgres:
