@@ -26,6 +26,10 @@ services:
         value: jobs
       - key: MISSION_CONTROL_PASSWORD
         generateValue: true
+      - key: WEB_CONCURRENCY
+        value: "0"
+      - key: MALLOC_ARENA_MAX
+        value: "2"
       # uncomment on plans with 2+ vCPUs (pro and up) to run one Puma process per vCPU;
       # a Spree process needs ~1GB RAM, so this doesn't fit free/starter instances
       # - key: WEB_CONCURRENCY
