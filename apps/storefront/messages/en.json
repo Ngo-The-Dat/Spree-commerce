@@ -56,19 +56,8 @@
     "copyright": "© {year} {storeName}. Powered by Spree Commerce."
   },
   "home": {
-    "welcome": "{storeName} Storefront",
-    "heroDescription": "A production-ready, open-source storefront built with Next.js, React, and the Spree TypeScript SDK. Self-host it. Own your stack. No vendor lock-in. Zero platform fees.",
-    "shopNow": "Shop All",
-    "forkOnGithub": "Fork on GitHub",
-    "quickstartGuide": "Quickstart Guide",
-    "featuredProducts": "Featured Products",
-    "viewAll": "View all",
-    "qualityProducts": "Quality Products",
-    "qualityDescription": "Carefully curated selection of the best products.",
-    "fastShipping": "Fast Shipping",
-    "shippingDescription": "Quick and reliable delivery to your doorstep.",
-    "support": "24/7 Support",
-    "supportDescription": "Our team is here to help you anytime."
+    "welcome": "VITA+WELL",
+    "heroDescription": "Sống khỏe mỗi ngày - Chuyên cung cấp thực phẩm chức năng chính hãng.\nSinh viên:\n23127340 - Ngô Thế Đạt\n23127149 - Nguyễn Bình An\nMôn học: Thương mại điện tử"
   },
   "cart": {
     "cart": "Cart",
