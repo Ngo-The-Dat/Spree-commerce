@@ -57,7 +57,7 @@
   },
   "home": {
     "welcome": "VITA+WELL",
-    "heroDescription": "Sống khỏe mỗi ngày - Chuyên cung cấp thực phẩm chức năng chính hãng.\nSinh viên:\n23127340 - Ngô Thế Đạt\n23127149 - Nguyễn Bình An\nMôn học: Thương mại điện tử\nMã nguồn mở Web EC(Admin): https://github.com/spree/spree\nMã nguồn mở Web EC(Khách hàng): https://github.com/spree/storefront\nThông tin thuê máy ảo VPS(Linux):\nID: 221.132.21.10\nPassword: 2uucIFnYD3hyOqF34IGA"
+    "heroDescription": "Sống khỏe mỗi ngày - Chuyên cung cấp thực phẩm chức năng chính hãng.\nMôn học: Thương mại điện tử\nSinh viên:\n23127340 - Ngô Thế Đạt\n23127149 - Nguyễn Bình An\nMã nguồn mở Web EC(Admin): https://github.com/spree/spree\nMã nguồn mở Web EC(Khách hàng): https://github.com/spree/storefront\nThông tin tài khoản máy ảo VPS thuê trên Vietnix(Linux):\nID: 221.132.21.10\nPassword: 2uucIFnYD3hyOqF34IGA"
   },
   "cart": {
     "cart": "Cart",
